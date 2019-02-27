@@ -9,7 +9,7 @@ header{
 	padding: 20px 0;
 }
 
-#hero{ background-image: url(../img/slider-3.jpg);
+#hero{ background-image: url(../../img/slider-3.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -50,7 +50,7 @@ padding: 200px 0px;
 
 #S1{
 	/*background-color: darkturquoise;*/
-	background-image: url( ../img/that-long-hot-road.jpg);
+	background-image: url(../../img/that-long-hot-road.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -84,4 +84,26 @@ padding: 200px 0px;
 #logos{
 	background-color: rgba(49,49,49,1.00);
 	text-align: center;
+}
+
+#logo-forms .foto:hover .overlay{
+	opacity: 1;
+	transition:  all 0.3s ease-in-out;
+} 
+
+#page-header{
+	background-color:#0c0c0c;
+	color:white;
+	padding: 5px 0;
+	
+}
+
+
+#page-header h1{
+	font-size: 26px;
+	
+}
+
+#content{
+	padding: 45px 0;
 }
